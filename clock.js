@@ -14,7 +14,7 @@ function setTime() {
 
 function init(){
     setTime();
-    //setInterval(setTime, 1000);
+    setInterval(setTime, 1000);
 }
 
 init();
